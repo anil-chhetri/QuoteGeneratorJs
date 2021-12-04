@@ -1,4 +1,3 @@
-console.log("testing.");
 
 const quoteContainer = document.getElementById("quotation-containers");
 const quote = document.getElementById("quote");
@@ -25,7 +24,7 @@ function complete(){
 function newQuotes(){
     loading();
     const Quote = Math.floor(Math.random() * apiQuotes.length);
-    console.log(apiQuotes[Quote]);
+    // console.log(apiQuotes[Quote]);
 
     if(!apiQuotes[Quote]['author'])
     {
